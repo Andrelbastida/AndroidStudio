@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="19dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="0dp"
+        />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="70dp" >
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView android:id="@+id/Mes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maio"
+                />
+            <TextView android:id="@+id/Saldo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saldo"
+                />
+            <TextView android:id="@+id/Valor_saldo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$ 3.500,00"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="409dp"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@color/black"/>
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+                        <TextView android:id="@+id/text_Receita"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Receita"
+                            android:textSize="18sp"
+                            />
+                        <TextView android:id="@+id/text_Valor_Receita"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="R$ 3.500,00"
+                            android:textSize="20sp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@color/black"/>
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+                        <TextView android:id="@+id/text_Receitas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Despesas"
+                            android:textSize="18sp"
+                            />
+                        <TextView android:id="@+id/text_Valor_Receitas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="R$ 3.500,00"
+                            android:textSize="20sp"
+                            />
+                    </LinearLayout>
+            </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="409dp"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+
+    tools:layout_editor_absoluteX="dp"
+    tools:layout_editor_absoluteY="260dp"
+    >
+        <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="dp"
+        tools:layout_editor_absoluteY="260dp"
+            android:gravity="center_horizontal"
+        >
+            <Button android:id="@+id/button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/relogio"
+                />
+            <TextView android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Histórico"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="100dp"/>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="dp"
+            tools:layout_editor_absoluteY="260dp"
+            android:gravity="center_horizontal"
+            >
+            <Button android:id="@+id/button_Cate"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/mais"/>
+            <TextView android:id="@+id/text_Cate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Categorias"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="100dp"/>
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="dp"
+            tools:layout_editor_absoluteY="260dp"
+            android:gravity="center_horizontal"
+            >
+
+            <Button
+                android:id="@+id/button_Regis"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/mais" />
+            <TextView android:id="@+id/text_Regis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registrar"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="100dp"/>
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="dp"
+            tools:layout_editor_absoluteY="260dp"
+            android:gravity="center_horizontal"
+            >
+            <Button
+                android:id="@+id/button_Dash"
+                android:background="@drawable/seta"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:id="@+id/text_Dash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dashboard"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="160dp"
+
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="dp"
+        tools:layout_editor_absoluteY="370dp"
+        >
+        <TextView android:id="@+id/text_Desp_Categori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Despesas por Categoria"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="180dp"
+
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="dp"
+        tools:layout_editor_absoluteY="540dp"
+        >
+        <TextView android:id="@+id/text_Historico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Histórico"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
